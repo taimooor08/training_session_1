@@ -1,6 +1,6 @@
 package assignment_2;
 
-public class Animal {
+public class Goat extends Animal {
 
     private String numberOfLegs;
     private String weight;

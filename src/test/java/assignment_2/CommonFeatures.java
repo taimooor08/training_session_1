@@ -6,4 +6,6 @@ public interface CommonFeatures {
     public void rahim ();
     public void khan ();
     public void nisum ();
+
+    public void faizan();
 }

@@ -59,4 +59,9 @@ public class MyApp implements CommonFeatures {
     public void nisum() {
         System.out.println("My name is Nisum.");
     }
+
+    @Override
+    public void faizan() {
+        System.out.println("My name is Faizan");
+    }
 }

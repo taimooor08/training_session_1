@@ -7,30 +7,30 @@ public class MyApp implements CommonFeatures {
         Animal a = new Animal();
 
         a.setNumberOfLegs("4");
-        System.out.println(a.getNumberOfLegs());
+        System.out.println("Animal have legs: " + a.getNumberOfLegs());
 
         a.setWeight("53.22");
-        System.out.println(a.getWeight());
+        System.out.println("Animal have weight: " + a.getWeight());
 
         a.setColorOfEyes("black");
-        System.out.println(a.getColorOfEyes());
+        System.out.println("Animal have eye color: " + a.getColorOfEyes());
 
         a.setCanFly("true");
-        System.out.println(a.getCanFly());
+        System.out.println("Can animal fly?: " + a.getCanFly());
 
         Goat g = new Goat();
 
-        g.setCanFly("false");
-        System.out.println(g.getCanFly());
-
-        g.setColorOfEyes("orange");
-        System.out.println(g.getColorOfEyes());
+        g.setNumberOfLegs("4");
+        System.out.println("Goat has legs: " + g.getNumberOfLegs());
 
         g.setWeight("12.93");
-        System.out.println(g.getWeight());
+        System.out.println("Goat has weight: " + g.getWeight());
 
-        g.setNumberOfLegs("4");
-        System.out.println(g.getNumberOfLegs());
+        g.setColorOfEyes("orange");
+        System.out.println("Goat has eye color: " + g.getColorOfEyes());
+
+        g.setCanFly("false");
+        System.out.println("Can goat fly?: " + g.getCanFly());
 
         MyApp ma = new MyApp();
 
